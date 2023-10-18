@@ -12,7 +12,7 @@ import java.util.UUID;
 @RequestMapping("/person")
 @CrossOrigin
 public class PersonController {
-    private final IPerson person;
+    private final IPerson person ;
 
     public PersonController(final IPerson student) {
         this.person = student;
